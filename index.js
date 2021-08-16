@@ -1,4 +1,5 @@
 // AEIOU:
+
 // Vowels. Create a function that takes a string in its parameters and counts the number of vowels (i.e. in English, “a, e, i, o, u”) in the string.
 // i.e. findVowels(“this is a string”) ➞ 4
 // SumOfNumbers.
@@ -33,11 +34,15 @@ function sumBricks(arr) {
   let total = 0;
   // start value
   for (let i = 0; i < arr.length; i++) {
+    //go through the array of objects and
     total += arr[i]["score"];
+    // add value from score at array index i
   }
   return total;
+  //result
 }
 console.log(sumBricks(scrabble));
+//display the function result
 
 // Counting Letters. Create a function that counts the number of occurrences of each letter in a string. Return an object with key pair values of letters and the number of occurrences for each letter.
 // Example:
