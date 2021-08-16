@@ -1,6 +1,7 @@
 # js-review
 
 A set of javascript exercices practiced in 2021 during vocational training for web- and software developer.
+
 ![Preview](./js.png)
 
 ## Common setup
